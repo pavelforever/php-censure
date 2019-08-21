@@ -1,0 +1,19 @@
+{
+    "name": "antonlukin/php-censure",
+    "type": "library",
+    "description": "A fork of rin-nas/php-censure with composer.json",
+    "authors": [
+        {
+            "name": "Anton Lukin",
+            "homepage": "https://lukin.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Censure\\": "src/"
+        }
+    }
+}

@@ -59,6 +59,8 @@
  * @author   Nasibullin Rinat
  * @version  2.2.2
  */
+namespace Censure;
+
 class UTF8
 {
 	#REPLACEMENT CHARACTER (for broken char)
@@ -2390,7 +2392,7 @@ class UTF8
 	/**
 	 * Convert UTF-16 / UCS-2 encoding string to UTF-8.
 	 * Surrogates UTF-16 are supported!
-	 * 
+	 *
 	 * In Russian:
 	 * Преобразует строку из кодировки UTF-16 / UCS-2 в UTF-8.
 	 * Суррогаты UTF-16 поддерживаются!
