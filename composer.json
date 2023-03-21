@@ -1,11 +1,10 @@
 {
-    "name": "antonlukin/php-censure",
+    "name": "pavelforever/php-censure",
     "type": "library",
-    "description": "A fork of rin-nas/php-censure with composer.json",
+    "description": "A fork of antonlukin/php-censure with some updates",
     "authors": [
         {
-            "name": "Anton Lukin",
-            "homepage": "https://lukin.me"
+            "name": "pavelforever"
         }
     ],
     "require": {
@@ -15,5 +14,8 @@
         "psr-4": {
             "Censure\\": "src/"
         }
+    },
+    "require-dev": {
+        "larapack/dd": "^1.1"
     }
 }
