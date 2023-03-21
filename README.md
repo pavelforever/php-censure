@@ -8,7 +8,7 @@
 
 ### Установка
 
-`composer require antonlukin/php-censure`
+`composer require pavelforever/php-censure`
 
 ### Пример использования
 
